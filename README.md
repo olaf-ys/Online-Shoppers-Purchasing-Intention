@@ -1,7 +1,8 @@
 # Online-Shoppers-Purchasing-Intention
 -- Yuanshan Zhang, Simiao Ye, Mengxin Zhao, Jiayun Liu
 
-In this project, we applied a variety of ML classifiers to a binary classification problem - predicting whether a customer will purchase or not based on his/her page viewing data collected during an online shopping session. Models we used include: Logistic Regression, Random Forest, SVM, XG Boost, and MLP, and our goal is to pick the model with highest ROC_AUC (Receiver Operating Characteristic_Area Under Curve) score (i.e. the model that can best distinguishes bewteen the positive class and the negative class)
+In this project, we applied a variety of ML classifiers to a binary classification problem - predicting whether a customer will purchase or not based on his/her page viewing data collected during an online shopping session. Models we used include: Logistic Regression, Random Forest, SVM, XG Boost, and MLP, and our goal is to recommend the model with
+the best ability to distinguish between the positive and negative classes to minimize the cost of FP (False Postives). Therefore, we used ROC_AUC (Receiver Operating Characteristic_Area Under Curve) score as our evaluation metric.
 
 ## What I did
 **1. EDA**\
