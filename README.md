@@ -9,8 +9,8 @@ First, I categorized categorical and numerical features. Then I visualized the t
 
 From the visualizations, I observed data issues such as class imbalance, multicolinearity, and the skewness of numerical features, and resolved these data issues in the preprocessing pipeline I built.
 
-2. **Preprocessing Pipeline**
+2. **Preprocessing Pipeline**\
 To assure a simple, coherent, and repeatable data preprocessing and feature engineering process, I streamlined the workflow of feature engineering (i.e. scaling, transformation, and encoding), dimensionality reduction, and oversampling using the scikit-learn pipeline. 
 
-3. **MLP**
-Finally, I built and fine-tuned an Multi-Layer-Perception using TensorFlow.
+3. **MLP**\
+Finally, I built and fine-tuned an Multi-Layer-Perception using TensorFlow and integrated it into the pipeline I built.
