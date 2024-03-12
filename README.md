@@ -16,7 +16,7 @@ To assure a simple, coherent, and repeatable data preprocessing and feature engi
 <img src="images/sklearn_pipeline.png" alt="示例图片" width="755" height="332">
 
 **3. MLP**\
-I designed the MLP structure by searching over 30 combinations of hyper-parameters towards best ROC_AUC using BayesianOptimization:
+Finally, I designed the MLP structure by searching over 30 combinations of hyper-parameters towards best ROC_AUC using BayesianOptimization:
 
 - batch size: [32, 64, 128]
 - number of layers: [2,3]
