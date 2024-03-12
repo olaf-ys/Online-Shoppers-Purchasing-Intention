@@ -7,7 +7,7 @@ In this project, we applied a variety of ML classifiers to a binary classificati
 **1. EDA**\
 First, I categorized categorical and numerical features. Then I visualized the target 'Revenue' and categorical features using bar plots and numerical features using pairplot and heatmap.
 
-From the visualizations, I observed data issues such as class imbalance, multicolinearity, and the skewness of numerical features, and resolved these data issues in the preprocessing pipeline I built.
+From the visualizations, I identified data issues such as class imbalance, multicolinearity, and the skewness of numerical features, and resolved these data issues in the preprocessing pipeline I built.
 
 **2. Building Pipeline**\
 To assure a simple, coherent, and repeatable data preprocessing and feature engineering process, I streamlined the workflow of feature engineering (i.e. scaling, transformation, and encoding), dimensionality reduction, and oversampling using the scikit-learn pipeline. 
