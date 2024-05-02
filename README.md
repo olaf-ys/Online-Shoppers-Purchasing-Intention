@@ -1,7 +1,7 @@
 # Online-Shoppers-Purchasing-Intention
 -- Yuanshan Zhang, Simiao Ye, Mengxin Zhao, Jiayun Liu
 
-The Online Shoppers Purchasing Intention Dataset dataset consists of 12,330 samples and 18 variables, including both numerical and categorical variables, enlightening a comprehensive map of customers' behavior. It includes crucial insights into the duration of time customers spend on a website, their navigation patterns, bounce rates between pages, the frequency of page views during each visit, and so on.
+The Online Shoppers Purchasing Intention Dataset consists of 12,330 samples and 18 variables, including both numerical and categorical variables, enlightening a comprehensive map of customers' behavior. It includes crucial insights into the duration of time customers spend on a website, their navigation patterns, bounce rates between pages, the frequency of page views during each visit, and so on.
 
 In this project, we applied a variety of ML classifiers to a binary classification problem - predicting whether a customer will purchase or not based on his/her page viewing data collected during an online shopping session. Models we used include: Logistic Regression, Random Forest, SVM, XG Boost, and MLP, and our goal is to recommend the model with
 the best ability to distinguish between the positive and negative classes to minimize the cost of FPs (False Positives). Therefore, we used the roc_auc (receiver operating characteristic_area under curve) score as our evaluation metric.
